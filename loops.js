@@ -8,7 +8,7 @@ TODO: Build a function forLoop. It takes an array as an argument.
 
 function forLoop(arr){
 
-  var arr = []
+  
   for(i=0; i<=25; i++){
     arr[i].push(`I am ${i} strange loops.`)
   }
