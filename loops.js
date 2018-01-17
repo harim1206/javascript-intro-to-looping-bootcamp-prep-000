@@ -9,15 +9,26 @@ TODO: Build a function forLoop. It takes an array as an argument.
 function forLoop(arr){
 
   for(i=0; i<=25; i++){
-
     if(i===1){
       arr[i] += `I am ${i} strange loop.`
     }else{
       arr[i] += `I am ${i} strange loops.`
     }
-
   }
 
   return arr
+}
 
+
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+}
+
+function doWhileLoop(arr){
+
+  while(maybeTrue() && arr.length>0){
+    arr.pop()
+  }
+
+  return arr
 }
