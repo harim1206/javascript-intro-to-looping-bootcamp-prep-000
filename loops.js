@@ -10,9 +10,9 @@ function forLoop(arr){
 
   for(i=0; i<=25; i++){
     if(i===1){
-      arr[i] += `I am ${i} strange loop.`
+      arr.push(`I am ${i} strange loop.`)
     }else{
-      arr[i] += `I am ${i} strange loops.`
+      arr.push(`I am ${i} strange loops.`)
     }
   }
 
