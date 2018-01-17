@@ -8,9 +8,9 @@ TODO: Build a function forLoop. It takes an array as an argument.
 
 function forLoop(arr){
 
-  
+
   for(i=0; i<=25; i++){
-    arr[i].push(`I am ${i} strange loops.`)
+    arr[i] += `I am ${i} strange loops.`
   }
 
 }
