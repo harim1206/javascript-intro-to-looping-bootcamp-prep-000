@@ -20,6 +20,38 @@ function forLoop(arr){
 }
 
 
+
+
+
+
+
+
+
+
+/*TODO: Create a function called whileLoop in loops.js.
+The function should take a number as an argument.
+ Using a while loop, count down (using console.log) from the passed in number to 0.
+ Then return the string 'done'.*/
+
+ function whileLoop(n){
+
+   while(n>=0){
+     console.log(n)
+     n--
+   }
+
+   return "done"
+
+ }
+
+
+
+
+
+
+
+
+
 function maybeTrue() {
   return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
 }
