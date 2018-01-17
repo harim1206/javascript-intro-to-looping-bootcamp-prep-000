@@ -10,7 +10,7 @@ function forLoop(arr){
 
   for(i=0; i<=25; i++){
 
-    if(i===0 || i===1){
+    if(i===1){
       arr[i] += `I am ${i} strange loop.`
     }else{
       arr[i] += `I am ${i} strange loops.`
