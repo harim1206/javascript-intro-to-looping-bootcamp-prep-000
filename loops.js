@@ -10,7 +10,7 @@ function forLoop(arr){
 
   var arr = []
   for(i=0; i<=25; i++){
-    arr[i] += `I am ${i} strange loops.`
+    arr[i].push(`I am ${i} strange loops.`)
   }
 
 }
