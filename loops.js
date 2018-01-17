@@ -8,7 +8,7 @@ TODO: Build a function forLoop. It takes an array as an argument.
 
 function forLoop(arr){
 
-  for(i=1; i<=25; i++){
+  for(i=0; i<=24; i++){
     if(i===1){
       arr.push(`I am ${i} strange loop.`)
     }else{
