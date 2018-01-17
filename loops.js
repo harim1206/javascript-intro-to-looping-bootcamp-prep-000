@@ -35,7 +35,7 @@ The function should take a number as an argument.
 
  function whileLoop(n){
 
-   while(n>=0){
+   while(n>0){
      console.log(n)
      n--
    }
